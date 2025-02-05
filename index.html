@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dynamic Sports Rehabilitation</title>
+  <link href="assets/styles.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.4/components/heroes/hero-1/assets/css/hero-1.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-custom">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="assets/logo.png" alt="Dynamic Sports Rehabilitation" width="40" height="40">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Dynamic Sports Rehabilitation</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section-about">About me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section-rehab">Rehabilitation</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section-get-in-touch">Get in touch</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero 1 - Bootstrap Brain Component -->
+  <section class="bsb-hero-1 px-3 bsb-overlay bsb-hover-pull" style="background-image: url('./assets/relax.jpg');">
+    <div class="container">
+      <div class="row justify-content-md-center">
+        <div class="col-12 col-md-11 col-lg-9 col-xl-7 col-xxl-6 text-center text-white">
+          <h1 class="display-3 fw-bold mb-3">Dynamic Sports Rehabilitation</h1>
+          <p class="lead mb-5">From assessment to recovery, I'll be with you all the way.
+          </p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <button type="button" class="btn bsb-btn-xl btn-light gap-3">Get In Touch</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container">
+
+    <section id="section-about" class="row pt-5 pb-5">
+      <div class="col-sm">
+        <h2 class="fs-2">About me</h2>
+        <p class="fs-4">Hi 👋, I'm Ivan and I specialise in Sports Rehabilitation in Huddersfield and the surrounding
+          areas.</p>
+        <p class="fs-4">I have a BSc Honors desgree in Sports Rehabilitation from the University of Hull where I spent
+          over 500 hours in clinics and pitch side learning effective sports rehabilitation.</p>
+        <p class="fs-4">I'm fully insured and a member of the British Association of Sport Rehabilitators (BASRaT). I
+          hold certificates in emergency first aid and child safeguarding as well as an enhanved DBS check.</p>
+      </div>
+      <div class="col-sm">
+        <img class="bsb-hover-pull img-fluid ml-4 mr-4 info-img mx-auto d-block" src="assets/ivan.jpg"
+          alt="Picture of Ivan Salter">
+      </div>
+    </section>
+    <section id="section-rehab" class="row pt-5 pb-5">
+      <div class="col-sm">
+        <img class="bsb-hover-pull img-fluid ml-4 mr-4 info-img mx-auto d-block" src="assets/rehab.jpg"
+          alt="Picture of Ivan Salter">
+      </div>
+      <div class="col-sm">
+        <h2>Rehabilitation</h2>
+        <p class="fs-4">Everyone is different and everyone's treatment is different. Before providing treatment, I asses
+          each patient and get a clear understanding of the problems they are experiencing.</p>
+        <p class="fs-4">I can then devise a personalised treatment plan with may include:
+        <ul>
+          <li class="fs-4">massage</li>
+          <li class="fs-4">excercise</li>
+          <li class="fs-4">a combination of both</li>
+        </ul>
+        </p>
+      </div>
+    </section>
+    <section id="section-get-in-touch" class="row pt-5 pb-5">
+      <div class="col-sm">
+        <h2>Get in touch</h2>
+      </div>
+      <div class="row">
+        <p class="fs-4">If you'd like to get in touch to book an assessment or treatment, please get in touch via email,
+          telephone of via entering your contact details below.</p>
+        <div class="col-sm">
+          <form name="contact" method="POST" data-netlify="true">
+            <div class="form-group mt-5">
+              <label class="fs-4" for="name">Your Name:</label>
+              <input required type="text" class="form-control" id="name" name="name" placeholder="<Enter your name>">
+            </div>
+            <div class="form-group mt-3">
+              <label class="fs-4" for="email">Your Email:</label>
+              <input required type="text" class="form-control" id="email" placeholder="<Enter your email>">
+            </div>
+            <div class="form-group fs-4 mt-3">
+              <label for="email">Your Telephone Number:</label>
+              <input required type="text" class="form-control" id="telephone"
+                placeholder="<Enter your telephone number">
+            </div>
+            <p>
+              <button class="btn btn-primary mt-5 " type=submit">Send Me a Message</button>
+            </p>
+          </form>
+
+        </div>
+      </div>
+    </section>
+  </div>
+  <footer class="footer footer-custom">
+    <div class="container align=" center">
+      <div class="row">
+        <div class="col-sm">
+          <h2 class="fs-3">Dynamic Sports Rehabilitation</h2>
+        </div>
+        <div class="col-sm">
+          <h5 class="fs-4">Contact Me</h5>
+          <ul class="list-unstyled">
+            <li class="fs-5">Email: info@dynamicsportsrehab.co.uk</li>
+            <li class="fs-5">Phone: +07xxx xxxxxxx</li>
+          </ul>
+        </div>
+        <div class="col-sm">
+          <h5 class="fs-4">Follow Me</h5>
+          <ul class="list-inline footer-links">
+            <li class="list-inline-item fs-5">
+              <a href="#">
+                <i class="fab fa-facebook"></i>
+              </a>
+            </li>
+            <li class="list-inline-item fs-5">
+              <a href="#">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">
+                <i class="fab fa-linkedin fs-5"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-md-12">
+          <p>&copy; 2025 Dynamic Sports Rehab. All rights reserved. Made with <i class="fa-solid fa-heart"></i> in
+            Yorkshire.
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
